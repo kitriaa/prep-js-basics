@@ -9,9 +9,12 @@
 *
 * It should be a String.
 **/
-
-
-
+var firstName = "jack";
+console.log(firstName);
+var lastName = "daniels";
+console.log(lastName);
+var birthPlace = "texas";
+console.log(birthPlace);
 /**
 * #2
 * Variables with a Number as their value
@@ -21,9 +24,9 @@
 *
 * Their values should be a Number
 **/
-
-
-
+var favoriteNumber = 8;
+var currentYear = 2016;
+var thatOnePrinceSong = 1999;
 /**
 * #3
 * Variables with Boolean values
@@ -33,9 +36,9 @@
 *
 * Their values should be a Boolean
 **/
-
-
-
+var isDaytime = false;
+var isLeftHanded = false;
+var isHappyCoding = true;
 /**
 * #4
 * Variables with null
@@ -44,8 +47,8 @@
 *
 * Their values should be a Null value
 **/
-
-
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
 
 /**
 * #5a
@@ -55,7 +58,7 @@
 * This Array contains the names of all the states
 * which can be found along the west coast of The United States.
 **/
-
+var westCoast = ["Alaska", "Arizona", "California", "Colorado", "Hawaii", "Idaho", "Montana", "Nevada", "New Mexico", "Oregon", "Utah", "Washington", "Wyoming"]
 
 
 /**
@@ -132,8 +135,10 @@
 *
 * Store the return value to a variable named `jumpResult` and use console.log to inspect the value which was returned by your function
 **/
-
-
+function jump(height) {
+	return "You jumped " + height + " feet high!";
+}
+console.log(jump(12));
 
 /**
 * #7b
@@ -144,4 +149,7 @@
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
-
+function cook(ingredient1, ingredient2, recipeName) {
+	return ingredient1 + " and " + ingredient2 + " make a " + recipeName + "!";
+}
+console.log(cook("Tomatoes", "Cheese", "Pizza"));
