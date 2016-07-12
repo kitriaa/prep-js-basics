@@ -59,7 +59,7 @@ var completedFridayPrep = null;
 * which can be found along the west coast of The United States.
 **/
 var westCoast = ["Alaska", "Arizona", "California", "Colorado", "Hawaii", "Idaho", "Montana", "Nevada", "New Mexico", "Oregon", "Utah", "Washington", "Wyoming"]
-
+console.log(westCoast);
 
 /**
 * #5b
@@ -69,7 +69,8 @@ var westCoast = ["Alaska", "Arizona", "California", "Colorado", "Hawaii", "Idaho
 * This Array contains numbers that are considered 'even values'.
 * Have at least ten even values in this array.
 **/
-
+var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+console.log(evenNumbers);
 
 
 /**
@@ -82,7 +83,14 @@ var westCoast = ["Alaska", "Arizona", "California", "Colorado", "Hawaii", "Idaho
 *
 * Extend this behavior to include subtraction, multiplication and division.
 */
-
+var sumOfNumbers = 1 + 2;
+console.log(sumOfNumbers);
+var sumOfNumbers2 = 1 - 1;
+console.log(sumOfNumbers2);
+var sumOfNumbers3 = 1 * 3;
+console.log(sumOfNumbers3);
+var sumOfNumbers4 = 3 / 2;
+console.log(sumOfNumbers4);
 
 
 
@@ -103,7 +111,12 @@ var westCoast = ["Alaska", "Arizona", "California", "Colorado", "Hawaii", "Idaho
 *   See if you can come up with a few examples of double comparison
 *   operator(==) vs triple comparison operator(===).
 */
-
+var isEqual = ("Tacocat" === "tacocat");
+console.log(isEqual);
+var comparetwo = (5 == "5");
+console.log(comparetwo);
+var comparethree = (5 === "5");
+console.log(comparethree);
 
 
 /**
@@ -121,7 +134,17 @@ var westCoast = ["Alaska", "Arizona", "California", "Colorado", "Hawaii", "Idaho
 *   The tests for this section cannot test your variable as it changes,
 *   it can only test that you declared the variable by giving it the right name.
 */
-
+var generalContainer = 0;
+generalContainer++;
+console.log(generalContainer);
+generalContainer--;
+console.log(generalContainer);
+generalContainer+=2;
+console.log(generalContainer);
+generalContainer*=2;
+console.log(generalContainer);
+generalContainer/=2;
+console.log(generalContainer);
 
 
 /**
